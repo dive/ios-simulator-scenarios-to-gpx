@@ -15,6 +15,12 @@ What do we have?
 - generated GPX files in `gpx` folder (just pure GPX only with waypoints);
 - Objective C implementation file (very simple).
 
+# Sources
+To compile `ios-simulator-scenarios-to-gpx.m` use the command
+```
+clang -fobjc-arc -framework Foundation -framework CoreLocation ios-simulator-scenarios-to-gpx.m -o ios-simulator-scenarios-to-gpx
+```
+
 # GPX
 Feel free to fork this repo if you want to generate more complex GPX files or change something. You can find additional documentation about GPX here - [GPX 1.1 Schema Documentation](http://www.topografix.com/gpx/1/1/).
 
